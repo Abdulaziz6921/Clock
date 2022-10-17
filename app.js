@@ -16,16 +16,14 @@ setInterval(() => {
 
 // Night Mode Function
 let Mode = document.querySelector("body");
-let Clock = document.querySelector(".clock");
+let Clock = document.querySelector(".box");
 
 let nightMode = () => {
   Mode.classList.add("nightmode");
-  Clock.style =
-    "background-color:rgba(252,252,252,0.82);; box-shadow: -4px 2px 94px 51px rgba(252,252,252,0.82);";
+  Clock.classList.add("night_clock");
 };
 
 let lightMode = () => {
   Mode.classList.remove("nightmode");
-  Clock.style =
-    "background-color: #f0ec0c; box-shadow: -4px 2px 94px 53px rgba(245,235,5,0.82);";
+  Clock.classList.remove("night_clock");
 };
