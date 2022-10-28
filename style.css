@@ -7,12 +7,12 @@
 
 body {
   height: 100vh;
-  background-image: url("./images/day\ mountain.jpg");
+  background-image: url("./images and sounds/day\ mountain.jpg");
   background-size: cover;
 }
 
 .nightmode {
-  background-image: url("./images/night\ mountain.jpg");
+  background-image: url("./images and sounds/night\ mountain.jpg");
   background-size: cover;
 }
 
@@ -83,7 +83,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./images/rcnrbnp5i.png");
+  background-image: url("./images and sounds/rcnrbnp5i.png");
   background-size: cover;
   border: 2px solid black;
 }

@@ -17,13 +17,19 @@ setInterval(() => {
 // Night Mode Function
 let Mode = document.querySelector("body");
 let Clock = document.querySelector(".box");
+let sound1 = document.getElementById("audio1");
+let sound2 = document.getElementById("audio2");
 
 let nightMode = () => {
   Mode.classList.add("nightmode");
   Clock.classList.add("night_clock");
+  sound2.play();
+  sound1.pause();
 };
 
 let lightMode = () => {
   Mode.classList.remove("nightmode");
   Clock.classList.remove("night_clock");
+  sound2.pause();
+  sound1.play();
 };
